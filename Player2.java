@@ -21,7 +21,7 @@ public class Player2 {
 		P2EXP =  input.nextDouble();
 		
 		Player Second = new Player (P2Job,P2Level,P2EXP);
-		
+		//this is a new instance of the player class.
 		
 		System.out.println ("Job:" + Second.getJob() + " Level:" + Second.getLevel() + " CurrentEXP:" + Second.getEXP());
 

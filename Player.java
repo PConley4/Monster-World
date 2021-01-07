@@ -10,10 +10,8 @@ stats will have a random chance of getting higher stats. they can also learn tec
 */
 	private String Job = " ";
 	// the Job of player. This doesn't have to be a string but it makes things easier to read for me.
-	
 	private int Level = 0;
 	//current level of player. there is no get method for this. the level is stored and made here
-	
 	//the class of the player/enemy determines if they calculate with def or res when attacking
 	private double EXP = 0;
 	//current exp of player
@@ -33,7 +31,7 @@ stats will have a random chance of getting higher stats. they can also learn tec
 		this.Job= inJob;
 		this.Level = inLevel;
 		this.EXP = inEXP;
-		}
+	}
 	
 	public String getJob(){
 		return this.Job;
@@ -55,6 +53,16 @@ stats will have a random chance of getting higher stats. they can also learn tec
 		//return LevelP1;
 	//}
 
-	//here, take stats and stuff from the class relating to the Job and store them here.
+	//The set methods will allow the change to instances to the parent classes in the main class.
+	public void setJob(String Job1){
+		this.Job = Job1;
+	}
 	
+	public void setLevel(int Level1) {
+		this.Level = Level1;
+	}
+
+	public void setEXP(double EXP1){
+		this.EXP = EXP1;
+	}
 }
