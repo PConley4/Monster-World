@@ -32,6 +32,8 @@ public class Player1{
 		Player First = new Player (P1Job,P1Level,P1EXP);
 		
 		System.out.println ("Job:" + First.getJob() + " Level:" + First.getLevel() + " CurrentEXP:" + First.getEXP());
+		//What you have seen is that you extend from a class to use it's methods. However here, both Player and Player 1 are in the same package. Meaning you use any publuc method
+		//from anywhere.
 	}
 	
 	/*public Statup() {
