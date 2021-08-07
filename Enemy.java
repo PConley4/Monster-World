@@ -25,8 +25,8 @@ private string Enemy1Type;
 	//the attack of player 1. 
 	private int DEFE1;
 	//def of player 1
-	private int RESE1;
-	//res of player 1
+	private int SPDE1;
+	//spd of player 1
 	//the class of the player/enemy determines if they calculate with def or res when attacking
 
 	
