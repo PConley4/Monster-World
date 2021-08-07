@@ -19,6 +19,7 @@ public class Player1{
 		
 		Scanner input = new Scanner (System.in);
 		System.out.println("What is your job? Make EXTRA sure the input is correctly as this cannot be changed later.");
+		//can me make this only assign once?
 		System.out.println("The Jobs are: Warrior, Black Mage, White Mage, Tamer, Sniper.");
 		P1Job =  input.nextLine();
 		//job of the player. For simplicity's sake, this is permanent.
